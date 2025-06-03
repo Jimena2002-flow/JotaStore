@@ -1,0 +1,208 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000; /* Texto en negro */
+      margin: 0;
+      padding: 0;
+}
+
+h1 {
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 32px;
+      margin-top: 20px;
+}
+
+#textoenRojo {
+      color: brown;
+      font-weight: bold;
+}
+.colorletraenca {
+      color: #ffffff;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: xx-large;
+      align-content: center;
+
+}
+ul.redes {
+      display: flex;
+      list-style: none;
+      gap: 15px;
+      padding: 10px;
+      margin: 0;
+      background-color: #3d3d3d;
+      justify-content: center;
+}
+ul.redes li a:hover {
+      transform: scale(1.2);
+}
+ul.redes li a {
+    text-decoration: none; /* Sin subrayado */
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family:Impact;
+    transition: 0.3s ease;
+}
+svg {
+      width: 24px;
+      height: 24px;
+      fill: #ffffff;
+}
+.estilosimagenes {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 40px;
+      display: block;
+      margin: 20px auto;
+}
+
+.atribucion {
+      position: fixed;
+      bottom: 15px;
+      left: 15px;
+      background-color: #25d366;
+      color: #000000;
+      font-weight: bold;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      text-decoration: none;     
+}
+.barracookis {
+      position: fixed;
+      bottom: 15px;
+      left: 15px;
+      right: 15px;
+      height: 150px;
+      width: 100%;
+      align-content: center;
+      background-color: #808883;
+      color: #000000;
+      font-weight: italic;
+      padding: 10px 16px;
+      border-radius: 4px;
+      font-size: 14px;
+      text-decoration: none;
+}
+.uno {
+      text-decoration: none;
+      background-color: rgb(41, 245, 14);
+      position : fixed;
+      bottom: 30px;
+      left: 20px;
+      right: 10px;
+      width: 100px;
+      z-index : 1000;
+}
+
+.dos {
+      text-decoration: none;
+      background-color: rgb(247, 36, 8);
+      position : fixed;
+      bottom: 30px;
+      right: 10px;
+      width: 100px;
+      z-index : 2000; 
+}
+.uno, .dos{
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+}
+p {
+      padding: 0 20px;
+      text-align: center;
+      color: #000;
+}
+
+/* Estilos de productos */
+.productos, .tabla-stock, .lista {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+  
+.titulo-seccion {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+  
+.contenedor-articulos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+  
+.articulo {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+  
+.articulo:hover {
+    transform: scale(1.05);
+}
+  
+.articulo img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.precio {
+    display: block;
+    font-weight: bold;
+    color: #3a3838;
+    margin-top: 0.5rem;
+}
+.textoaudio {
+      padding: 0 20px;
+      text-align: center;
+}
+section.nosotros, section.mision-vision, section.marcas {
+      padding: 2rem;
+      text-align: center;
+      background-color: #f5d968
+      margin-bottom: 2rem;
+}
+    
+section h1, section h2 {
+      color: #27251d;
+      margin-bottom: 1rem;
+}
+    
+section p {
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto 1.5rem;
+}
+    
+.logos-marcas {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 1.5rem;
+}
+    
+.logos-marcas svg{
+      width: 100px;
+      fill: #000000;
+      height: auto;
+      object-fit: contain;
+}
+    
+
+footer {
+      background-color: #3d3d3d;
+      color: #fdfdfd;
+      font-size: x-large;
+      align-content: center;
+}
